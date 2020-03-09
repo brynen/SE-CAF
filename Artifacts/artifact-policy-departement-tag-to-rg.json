@@ -1,15 +1,15 @@
 {
   "kind": "policyAssignment",
   "properties": {
-    "displayName": "Append Cost Code TAG to Resource Groups",
+    "displayName": "Append Departement tag to Resource Groups",
     "dependsOn": [],
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
     "parameters": {
       "tagName": {
-        "value": "Cost Code"
+        "value": "Departement"
       },
       "tagValue": {
-        "value": "[parameters('Policy_Cost_Code_Tag')]"
+        "value": "[parameters('Policy_Departement_Tag')]"
       }
     }
   }
